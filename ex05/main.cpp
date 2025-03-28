@@ -1,34 +1,23 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   Weapon.cpp                                         :+:      :+:    :+:   */
+/*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: vlaggoun <vlaggoun@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/03/24 14:55:17 by vlaggoun          #+#    #+#             */
-/*   Updated: 2025/03/25 14:15:12 by vlaggoun         ###   ########.fr       */
+/*   Created: 2025/03/28 15:37:51 by vlaggoun          #+#    #+#             */
+/*   Updated: 2025/03/28 17:01:44 by vlaggoun         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Weapon.hpp"
+#include "Harl.hpp"
 
-Weapon::Weapon(std::string type)
+int	main(int ac, char **av)
 {
-	this->type = type;
+	Harl	instance;
+	if (ac == 2)
+	{
+		instance.complain(av[1]);
+	}
+	return (0);
 }
-
-Weapon::~Weapon()
-{
-
-}
-
-const std::string	Weapon::getType(void)
-{
-	return (this->type);
-}
-
-void	Weapon::setType(std::string value)
-{
-	this->type = value;
-}
-

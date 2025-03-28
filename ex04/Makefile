@@ -6,13 +6,13 @@
 #    By: vlaggoun <vlaggoun@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/03/11 15:43:22 by vlaggoun          #+#    #+#              #
-#    Updated: 2025/03/25 14:15:41 by vlaggoun         ###   ########.fr        #
+#    Updated: 2025/03/26 12:51:41 by vlaggoun         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = weapon
+NAME = sed
 
-SOURCES = main.cpp HumanA.cpp HumanB.cpp Weapon.cpp
+SOURCES = main.cpp
 
 SRCS = $(SOURCES)
 

@@ -6,13 +6,13 @@
 #    By: vlaggoun <vlaggoun@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/03/11 15:43:22 by vlaggoun          #+#    #+#              #
-#    Updated: 2025/03/25 14:15:41 by vlaggoun         ###   ########.fr        #
+#    Updated: 2025/03/28 17:10:53 by vlaggoun         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = weapon
+NAME = Harl
 
-SOURCES = main.cpp HumanA.cpp HumanB.cpp Weapon.cpp
+SOURCES = main.cpp Harl.cpp
 
 SRCS = $(SOURCES)
 
